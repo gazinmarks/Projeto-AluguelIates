@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EBEBEB;
+    color: black;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header-container h1 {
+    color: #1BB4E8;
+
+}
+
+.header-container span {
+    color: #FFFFFF;
+}
+
+.header-container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 1rem;
+
+}
+
+.main-container {
+    background-color: white;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #21272B;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #dbd5d5;
+    font-size: 13px;
+}
+
+nav ul li a:active,
+nav ul li a:hover {
+    color: #1BB4E8;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .32rem;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    
+
+}
+
+nav li::after {
+    content: "|";
+    margin-left: 10px;
+    color: #FFFFFF;
+}
+
+nav li:last-child::after {
+    content: "";
+}
+
+
+.info-section figure img {
+    width: 100%;
+    height: 37.5rem;
+}
+
+.info-section {
+    display: relative;
+}
+
+.contato-info {
+    position: absolute;
+    top: 21.875rem;
+    left: 51%;
+    padding: .5rem 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 28.125rem;
+    height: 15.625rem;
+    background-color: rgba(26, 50, 67, 0.815);
+}
+
+.text-box {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-size: 25px;
+    margin-top: 1rem;
+    line-height: 1.875rem;
+    gap: .8rem;
+    color: #FFFF;
+
+}
+
+.contato-info h2 {
+    width: 72%;
+    font-size: 1.5625rem;
+    font-style: italic;
+    color: #FFFF;
+    font-weight: 400;
+    margin-left: 0.9375rem;
+    line-height: 2.1875rem;
+
+}
+
+.text-box p {
+    font-size: 1.25rem;
+}
+
+
+.text-box p span {
+    color: #C6B07F;
+}
+
+.info-section .main-img {
+    width: 100%;
+    overflow: hidden;
+}
+
+#home .home a,
+#alguel-iate .alguel-iate a,
+#destinos .destinos a,
+#tripulacao .tripulacao a,
+#contato .contato a {
+    color: #1BB4E8;
+
+
+}
+
+.title-box-frota,
+.title-box-destinos {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+
+.content-section {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin: auto;
+    gap: 2rem;
+}
+
+.title-box-destinos {
+    background-color: #1BB4E8;
+
+}
+
+.title-box-frota {
+    background-color: #C6B07F;
+
+}
+
+
+.title-box-destinos h2::first-letter,
+.title-box-frota h2::first-letter {
+    text-transform: uppercase;
+}
+
+.context-text-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.context-text-box h3 {
+    font-size: 1.4rem;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.frota-imgs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-evenly;
+
+
+}
+
+footer {
+
+    padding: 2rem 1rem;
+    background-color: #ccc0c048;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+
+
+}
+
+.frota-imgs img {
+    width: 13.4375rem;
+}
